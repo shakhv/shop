@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>GQL</title>
+        <meta charset='utf8' />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar header" style="padding: 10px;">
+                <a class="logo" href="#">BEST SALLER</a>
+                <div class="menu" id="navbarNav">
+                  <ul class="ul-menu">
+                    <li class="item">
+                      <a class="" href="index.html">Главная</a>
+                    </li>
+                    <li class="item">
+                        <a class="" href="#/car" id='CountCar'><b>Корзина</b></a>
+                    </li>
+                    
+                  </ul>
+                  <form id="form_no">
+                    <a href="#/register" type="submit">Регистрация</a>
+
+                    <a href="#/login">Вход</a>
+                  </form>
+                  <form id="form_yes">
+                    
+                    <a href="#/orderFind" id="UserNick">В</a>
+                    <a onclick="store.dispatch(actionAuthLogout());display()" class="log-btn" type="submit">Выход</a>
+                  </form>
+                </div>
+              </nav>
+        </header>
+        <div id='mainContainer'>
+            <aside>
+                <ul id='aside'>
+                </ul>
+            </aside>
+            <main id='main'>
+            </main>
+            
+        </div>
+        <script src='index2.js'></script>
+       
+    </body>
+</html>
